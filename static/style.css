@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-upload-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.custom-file-upload {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    cursor: pointer;
+    width: 30%; 
+    max-width: none; 
+}
+
+.custom-file-upload:hover {
+    background-color: #ffffff;
+}
+
+input[type="file"] {
+    display: none; 
+}
+
+#file-name-display {
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    box-sizing: border-box;
+    color: #555;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: -1px; 
+    cursor: default;
+}
+
+.file-name-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.file-name-label {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    width: 30%;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #69adf6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #518ecf;
+}
